@@ -14,4 +14,8 @@ describe('String Calculator', function() {
 	it('should return 2 for array [ 6, 6, 4, 4, 1, 3 ] ', function() {
 		expect(calculator.add([ 6, 6, 4, 4, 1, 3 ])).toEqual(2);
 	});
+
+	it('should return 12 for array [ 3, 5, 3, 5, 4, 2 ] ', function() {
+		expect(calculator.add([ 3, 5, 3, 5, 4, 2 ])).toEqual(12);
+	});
 });
