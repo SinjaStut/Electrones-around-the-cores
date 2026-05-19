@@ -6,4 +6,8 @@ describe('String Calculator', function() {
 	it('should return 6 for array [ 1, 2, 3, 4, 5 ]', function() {
 		expect(calculator.add([ 1, 2, 3, 4, 5 ])).toEqual(6);
 	});
+
+	it('should return 4 for array [ 2, 2, 3, 3 ] ', function(){
+		expect(calculator.add([ 2, 2, 3, 3 ])).toEqual(4);
+	});
 });
